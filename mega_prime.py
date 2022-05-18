@@ -12,7 +12,7 @@ else:
         c+=1
         if(d==2 or d==3 or d==5 or d==7):
             dc+=1
-    if(c==dc):
+    if(dc==c):
         print('Mega Prime')
     else:
         print('Not Mega Prime')
