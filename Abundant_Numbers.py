@@ -7,4 +7,3 @@ if(sum>n):
     print('True')
 else:
     print('False')
-    
