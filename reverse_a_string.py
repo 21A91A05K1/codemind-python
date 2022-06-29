@@ -1,2 +1,4 @@
 n=input()
-print(n[::-1])
+for i in range(len(n)):
+    print(n[::-1])
+    break
