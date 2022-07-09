@@ -12,4 +12,3 @@ for i in f:
     if i not in e:
         d+=1
 print(c+d)
-        
