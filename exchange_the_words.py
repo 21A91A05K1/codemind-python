@@ -1,6 +1,5 @@
-st=input()
-s =st.split()[::-1]
-l = []
-for i in s:
-    l.append(i)
-print(" ".join(l))
+n=input()
+n=n.split()
+for i in range(len(n)):
+    print(*n[::-1])
+    break
