@@ -6,6 +6,6 @@ for i in b:
     c=0
     for j in i:
         if j in d:
-           c+=1
+            c+=1
     e.append(c)
 print(min(e))
