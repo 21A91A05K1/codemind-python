@@ -5,13 +5,13 @@ def prime(n):
     else:
         return 1
 n=int(input())
-s=0
 if(prime(n)):
+    sum=0
     while(n!=0):
         d=n%10
-        s=s*10+d
+        sum=sum*10+d
         n=n//10
-    if(prime(s)):
+    if(prime(sum)):
         print('circular prime')
     else:
         print('prime but not a circular prime')
