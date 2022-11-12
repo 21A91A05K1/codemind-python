@@ -1,0 +1,8 @@
+n=input()
+n=n.split()
+a=len(n)
+for i in range(len(n)):
+    if(i==a-1):
+        b=n[i]
+        print(b[0])
+        break
